@@ -4,7 +4,7 @@ import { listItems } from "@/constants/nav";
 import Link from "next/link";
 import { AuthBtns } from "@/constants/nav";
 import { IoClose, IoMenu } from "react-icons/io5";
-import { use, useState } from "react";
+import { useState } from "react";
 
 export default function Nav() {
   const [isActive, setIsActive] = useState(false);
